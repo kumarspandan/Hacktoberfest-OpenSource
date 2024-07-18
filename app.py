@@ -120,9 +120,9 @@ username = st.text_input("GitHub Username", "")
 
 token = os.getenv('ghtoken')
 #st.write(token)
-if st.button("Fetch Email"):
+if st.button("Get Email"):
     if username:
-        with st.spinner("Fetching details..."):
+        with st.spinner("Searching for email...."):
             try:
                 profile = get_user_profile(username, token)
                 email = get_commit_email(username, token, sort='created', direction='desc')

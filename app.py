@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import re
 import os
+from PIL import Image
 # All Functions for fetching email
 def get_repos(user, token, sort='created', direction='desc'):
     headers = {
@@ -113,6 +114,8 @@ def get_user_profile(user, token):
     return user_response.json()
 
 # User Interface Starts here
+icon = Image.open('assets/icon.png')
+st.set_page_config(page_title='Osintgit', page_icon=icon)
 st.title("Osintgit")
 st.write("An Open Source Intelligence Tool to Find the Email Addresses of GitHub Users")
 

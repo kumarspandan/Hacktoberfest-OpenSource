@@ -143,6 +143,6 @@ if st.button("Fetch Email"):
             except Exception as e:
                 st.error(str(e))
     else:
-        st.warning("Please enter both username and token.")
+        st.warning("Please enter username")
 
 

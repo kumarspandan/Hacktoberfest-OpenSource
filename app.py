@@ -113,7 +113,7 @@ def get_user_profile(user, token):
     return user_response.json()
 
 # User Interface Starts here
-st.title("OsintHub")
+st.title("Osintgit")
 st.write("An Open Source Intelligence Tool to Find the Email Addresses of GitHub Users")
 
 username = st.text_input("GitHub Username", "")

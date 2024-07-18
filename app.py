@@ -136,7 +136,7 @@ if st.button("Get Email"):
                     if email:
                         st.success(f"**Email:** {email}")
                     else:
-                        st.warning("No email found data.")
+                        st.warning("No email found. This is our limitation.")
                 else:
                     st.warning("Failed to fetch user profile.")
 

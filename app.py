@@ -125,6 +125,7 @@ token = os.getenv('ghtoken')
 #st.write(token)
 if st.button("Get Email"):
     if username:
+        store_username=username
         with st.spinner("Searching for email...."):
             try:
                 profile = get_user_profile(username, token)
@@ -132,7 +133,7 @@ if st.button("Get Email"):
                 if not email:
                     email = get_commit_email(username, token, sort='created', direction='asc')
 
-                if profile:
+                if profile and store_username == profile["login"]:
                     st.image(profile['avatar_url'], width=100)
                     st.write(f"**User ID:** {profile['id']}")
                     st.write(f"**Username:** {profile['login']}")

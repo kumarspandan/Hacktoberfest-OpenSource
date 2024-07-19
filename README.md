@@ -4,6 +4,13 @@
 
 It is built using Python and hosted on Streamlit 🛶
 
+## Video Tutorial
+
+https://github.com/user-attachments/assets/803fd5dd-0b97-450e-b03c-b258d119fd57
+
+
+
+
 ## Features
 
 💌 Extract and display email addresses associated with GitHub accounts (if available) 

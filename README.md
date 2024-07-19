@@ -4,7 +4,7 @@
 
 It is built using Python and hosted on Streamlit 🛶
 
-visit https://osintgit.streamlit.app to use
+**To use, visit:** https://osintgit.streamlit.app
 ## Video Tutorial
 
 https://github.com/user-attachments/assets/803fd5dd-0b97-450e-b03c-b258d119fd57

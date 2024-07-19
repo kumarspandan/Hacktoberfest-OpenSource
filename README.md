@@ -15,10 +15,10 @@ It is built using Python and hosted on Streamlit 🛶
 > [!NOTE]  
 > Now you can use it without downloading anything—completely from your browser, with no tedious setup required.
 
+##
+
 > [!WARNING]
 > For those who want to download it, follow the steps below.
-## 
-
 ### Prerequisites
 
 - Python 3.7 or higher

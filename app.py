@@ -123,7 +123,7 @@ username = st.text_input("GitHub Username", "")
 
 token = os.getenv('ghtoken')
 #st.write(token)
-if st.button("Get Email"):
+if st.button("Find Email"):
     if username:
         store_username=username
         with st.spinner("Searching for email...."):

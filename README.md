@@ -1,6 +1,6 @@
 # Osintgit
 
-**Osintgit** is an open-source-intelligence tool designed to find **email** addresses of **GitHub** users for *contact* purposes 🕊
+**Osintgit** is an open-source-intelligence tool designed to find **email** of **GitHub** users for *contact* purposes 🕊
 
 It is built using Python and hosted on Streamlit 🛶
 

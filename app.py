@@ -139,6 +139,8 @@ if st.button("Find Email"):
                     st.write(f"**Username:** {profile['login']}")
                     if email:
                         st.success(f"**Email:** {email}")
+                        #Adding a download button
+                        st.download_button(label="Download Email", data=email, file_name='github_email.txt')
                     else:
                         st.warning("No email found. This is our limitation.")
                 else:
